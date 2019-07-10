@@ -1,0 +1,32 @@
+{
+  "name": "git-user-data",
+  "version": "1.0.0",
+  "description": "Get a user's data from git config at the project or global scope, depending on what git uses in the current context.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolacika/git-user-data.git"
+  },
+  "keywords": [
+    "congif",
+    "git",
+    "github",
+    "userdata",
+    "username",
+    "email",
+    "user"
+  ],
+  "author": "Tolacika",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tolacika/git-user-data/issues"
+  },
+  "homepage": "https://github.com/tolacika/git-user-data#readme",
+  "dependencies": {
+    "git-config-path": "^2.0.0",
+    "parse-git-config": "^3.0.0"
+  }
+}
